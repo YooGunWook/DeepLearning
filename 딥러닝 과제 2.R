@@ -252,7 +252,7 @@ plot(som.wines, type = "changes", main = "Wine data: SOM")
 
 
 
-
+## 과제와는 연관 없음.
 training = sample(nrow(wines), 150)
 Xtraining = scale(wines[training, ])
 Xtest = scale(wines[-training, ],
